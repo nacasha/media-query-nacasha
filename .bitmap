@@ -17,13 +17,13 @@
     },
     "styles": {
         "scope": "nacasha.media-query",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "mixins.scss",
         "rootDir": "media-query/styles"
     },
     "ui": {
         "scope": "nacasha.media-query",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "media-query/ui"
     },

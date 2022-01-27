@@ -13,7 +13,7 @@ import {
 export const MediaDesktop: FC = ({ children }) => {
   const isMatch = useMediaDesktop();
 
-  return <>{isMatch && children}</>;
+  return <>{(isMatch && children) && children}</>;
 };
 
 /**
@@ -22,7 +22,7 @@ export const MediaDesktop: FC = ({ children }) => {
 export const MediaTabletDesktop: FC = ({ children }) => {
   const isMatch = useMediaTabletDesktop();
 
-  return <>{isMatch && children}</>;
+  return <>{(isMatch && children) && children}</>;
 };
 
 /**
@@ -31,7 +31,7 @@ export const MediaTabletDesktop: FC = ({ children }) => {
 export const MediaTablet: FC = ({ children }) => {
   const isMatch = useMediaTablet();
 
-  return <>{isMatch && children}</>;
+  return <>{(isMatch && children) && children}</>;
 };
 
 /**
@@ -40,7 +40,7 @@ export const MediaTablet: FC = ({ children }) => {
 export const MediaMobileTablet: FC = ({ children }) => {
   const isMatch = useMediaMobileTablet();
 
-  return <>{isMatch && children}</>;
+  return <>{(isMatch && children) && children}</>;
 };
 
 /**
@@ -49,5 +49,5 @@ export const MediaMobileTablet: FC = ({ children }) => {
 export const MediaMobile: FC = ({ children }) => {
   const isMatch = useMediaMobile();
 
-  return <>{isMatch && children}</>;
+  return <>{(isMatch && children) && children}</>;
 };

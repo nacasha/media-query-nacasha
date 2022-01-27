@@ -23,7 +23,7 @@
     },
     "ui": {
         "scope": "nacasha.media-query",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "media-query/ui"
     },
